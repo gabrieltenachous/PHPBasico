@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+<head>
+    <meta charset=”UTF-8”>
+    <title></title>
+</head>
+<body>
+<div>
+    <?php
+        $ano = $_GET["a"];
+        echo "ano atual: $ano / ano anterior".$ano;
+    ?>
+
+</div>
+
+</body>
+</html>
